@@ -56,6 +56,7 @@ class GalleryCollectionViewController: UIViewController, UICollectionViewDataSou
         setupCollectionViewItemSize()
     }
     
+    // Gallery Images
     // Setup the collectionFlowLayout for the images
     private func setupCollectionViewItemSize() {
         
