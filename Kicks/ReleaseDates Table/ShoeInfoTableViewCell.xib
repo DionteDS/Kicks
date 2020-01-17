@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="shoeCell" rowHeight="150" id="KGk-i7-Jjw" customClass="ShoeInfoTableViewCell" customModule="Kicks" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="104"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="104"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="bA9-NQ-j3h">
+                        <rect key="frame" x="84" y="18" width="194.5" height="41"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Air Jordan 1 Retro Bred" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBc-sT-gFW">
+                                <rect key="frame" x="0.0" y="0.0" width="194.5" height="20"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Banned&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Jg-aq-dKx">
+                                <rect key="frame" x="0.0" y="25" width="194.5" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialHebrew-Light" family="Arial Hebrew" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bxu-Qx-776">
+                        <rect key="frame" x="6" y="18" width="70" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="m7m-Vq-zVJ"/>
+                            <constraint firstAttribute="height" constant="70" id="xxk-vi-3sN"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NIh-sb-oQg">
+                        <rect key="frame" x="84" y="68" width="112" height="20"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="YA7-3h-2ot">
+                                <rect key="frame" x="0.0" y="0.0" width="112" height="20"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09/06/16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="snd-Wc-gWj">
+                                        <rect key="frame" x="0.0" y="0.0" width="62" height="20"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q1c-ZM-8Hh">
+                                        <rect key="frame" x="66" y="0.0" width="6" height="20"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="$160" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbS-u3-sfI">
+                                        <rect key="frame" x="76" y="0.0" width="36" height="20"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="NIh-sb-oQg" firstAttribute="leading" secondItem="bxu-Qx-776" secondAttribute="trailing" constant="8" id="0Cz-fx-gRc"/>
+                    <constraint firstItem="bA9-NQ-j3h" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="8Ot-UW-Tn8"/>
+                    <constraint firstItem="NIh-sb-oQg" firstAttribute="top" secondItem="bA9-NQ-j3h" secondAttribute="bottom" constant="9" id="KBw-v8-IbX"/>
+                    <constraint firstItem="bxu-Qx-776" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="Pyb-dY-dpP"/>
+                    <constraint firstAttribute="trailing" secondItem="bA9-NQ-j3h" secondAttribute="trailing" constant="41.5" id="o4L-9S-Dqy"/>
+                    <constraint firstItem="bxu-Qx-776" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="ucj-nC-19r"/>
+                    <constraint firstItem="bA9-NQ-j3h" firstAttribute="leading" secondItem="bxu-Qx-776" secondAttribute="trailing" constant="8" id="umq-Lm-It6"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="NIh-sb-oQg" secondAttribute="trailing" constant="108" id="wfT-Ln-UHz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="shoeDate" destination="snd-Wc-gWj" id="2bk-jN-S2L"/>
+                <outlet property="shoeFullName" destination="hBc-sT-gFW" id="kRW-Fa-abN"/>
+                <outlet property="shoeImage" destination="bxu-Qx-776" id="mSE-Xc-0Jc"/>
+                <outlet property="shoePrice" destination="hbS-u3-sfI" id="snu-G7-y7q"/>
+                <outlet property="shoeSubName" destination="5Jg-aq-dKx" id="IoC-Jg-Go5"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </tableViewCell>
+    </objects>
+</document>
